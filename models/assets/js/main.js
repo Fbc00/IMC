@@ -46,8 +46,8 @@ function exibeResultado(msg, isValid) {
     const resultado = form.querySelector('.result');
     resultado.inneHTML = '';
     const p = criaLinha();
- v 
-    isValid ? p.classList.add('pica') : p.classList.add('erro')
+ 
+    isValid ? p.classList.add('correto') : p.classList.add('erro')
 
     p.innerHTML = msg;
     resultado.appendChild(p);
