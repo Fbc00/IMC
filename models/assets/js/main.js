@@ -48,8 +48,11 @@ function exibeResultado(msg, isValid) {
     const p = criaLinha();
  
     isValid ? p.classList.add('correto') : p.classList.add('erro')
-
     p.innerHTML = msg;
     resultado.appendChild(p);
+
+    setTimeout(() => {
+        resultado.innerHTML = '';
+    }, 10000);
 
 }

@@ -22,7 +22,7 @@ body {
   max-width: 640px;
   margin: 50px auto;
   background: #fff;
-  padding: 20px;
+  padding: 3rem;
   border-radius: 10px;
 }
 
@@ -57,13 +57,10 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.dados {
-  width: 50%;
-  float: left;
+.infors-master{
+  display: flex;
+  justify-content: space-between;
 }
-.result {
-  height: 30px;
-} 
 
 .correto {
   background-color: aqua;
